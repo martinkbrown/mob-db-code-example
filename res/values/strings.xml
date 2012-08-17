@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MobDBActivity!</string>
+    <string name="app_name">mobDB</string>
+    <string name="main_no_items">No profiles to display</string>
+    <string name="Edit"></string>
+    <string name="Edit1">Edit</string>
+    <string name="Done">Done</string>
+    <string name="N">Nameame</string>
+    <string name="address">address</string>
+    <string name="Delete">Delete</string>
+    <string name="Save">Save</string>
+    <string name="Back">Back</string>
+    <string name="Name">Name</string>
+    <string name="Address">Address</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Update">Update</string>
+</resources>

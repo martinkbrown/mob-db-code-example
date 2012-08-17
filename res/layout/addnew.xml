@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="1" android:orientation="vertical" android:gravity="fill_horizontal">
+    <ImageView android:src="@drawable/icon" android:id="@+id/imageView1" android:layout_height="80dp" android:layout_width="100dp" android:adjustViewBounds="false" android:layout_weight="0.35"></ImageView>
+    <TextView android:id="@+id/textView1" android:layout_width="149dp" android:layout_height="wrap_content" android:text="@string/Name"></TextView>
+    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPersonName" android:id="@+id/Name">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:id="@+id/textView2" android:layout_height="wrap_content" android:layout_width="90dp" android:text="@string/Address"></TextView>
+    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" android:id="@+id/Address" android:layout_weight="0.34"></EditText>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:orientation="vertical" android:layout_weight="0.22"></LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="50px" android:orientation="horizontal" android:gravity="center_horizontal" android:weightSum="1">
+        <Button android:layout_height="wrap_content" android:paddingLeft="20px" android:paddingRight="20px" android:layout_width="wrap_content" android:typeface="serif" android:layout_weight="0.61" android:text="@string/Save" android:id="@+id/save"></Button>
+    </LinearLayout>
+    
+</LinearLayout>
